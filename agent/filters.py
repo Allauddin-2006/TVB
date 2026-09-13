@@ -4,7 +4,7 @@ qualifies if the evidence explicitly supports each check — missing data
 means the company is excluded (not assumed to pass).
 """
 
-from . import config
+import config
 
 
 def passes_revenue_or_funding(facts: dict) -> bool:
