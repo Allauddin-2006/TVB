@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import streamlit as st
 
-from agent import config
-from agent.pipeline import run_pipeline
+import config
+from pipeline import run_pipeline
 
 st.set_page_config(page_title="TVB Lead Discovery Agent", page_icon="🧭", layout="wide")
 
