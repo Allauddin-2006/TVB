@@ -16,7 +16,7 @@ import itertools
 import random
 import requests
 
-from . import config
+import config
 
 
 def _search_google_cse(query: str, num: int = 10):
