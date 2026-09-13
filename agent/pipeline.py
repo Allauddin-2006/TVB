@@ -8,7 +8,7 @@ UI can show live status.
 
 import anthropic
 
-from . import config, discovery, extractor, email_finder, filters
+import config, discovery, extractor, email_finder, filters
 
 
 def run_pipeline(progress_cb=None):
