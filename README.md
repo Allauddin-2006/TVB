@@ -75,8 +75,7 @@ amount of billing.
 ## Run it locally
 
 ```bash
-git clone <this-repo-url>
-cd tvb-lead-agent
+git clone https://github.com/Allauddin-2006/TVB
 pip install -r requirements.txt
 cp .env.example .env   # fill in your keys
 streamlit run app.py
